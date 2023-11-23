@@ -1,0 +1,28 @@
+.wrapper {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Roboto Mono", monospace, "Large 500";
+}
+
+.wrapper h3 {
+	font-weight: bolder;
+	font-size: 1.5rem;
+	color: rgb(65, 65, 65);
+	line-height: 2rem;
+	text-align: center;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 768px) {
+	.wrapper {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		font-family: "Roboto Mono", monospace, "Large 500";
+	}
+}

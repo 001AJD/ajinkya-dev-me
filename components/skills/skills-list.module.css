@@ -1,0 +1,366 @@
+.skillsList {
+	list-style: none;
+	text-align: left;
+	line-height: 4rem;
+	font-size: 1.1rem;
+}
+
+/* Progress Bar CSS */
+.progressContainerNodeJS {
+	width: var(--progress-bar-width);
+	height: 5px;
+	background-color: var(--progress-bar-bg-color);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.progressBarNodeJS {
+	height: 100%;
+	width: 85%;
+	background-color: var(--progress-bar-fg-color);
+	border-radius: 5px;
+	transition: width 2s ease-in-out;
+}
+
+.progressContainerJavaScript {
+	width: var(--progress-bar-width);
+	height: 5px;
+	background-color: var(--progress-bar-bg-color);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.progressBarJavaScript {
+	height: 100%;
+	width: 90%;
+	background-color: var(--progress-bar-fg-color);
+	border-radius: 5px;
+	transition: width 2s ease-in-out;
+}
+
+.progressContainerReact {
+	width: var(--progress-bar-width);
+	height: 5px;
+	background-color: var(--progress-bar-bg-color);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.progressBarReact {
+	height: 100%;
+	width: 70%;
+	background-color: var(--progress-bar-fg-color);
+	border-radius: 5px;
+	transition: width 2s ease-in-out;
+}
+
+.progressContainerNextJS {
+	width: var(--progress-bar-width);
+	height: 5px;
+	background-color: var(--progress-bar-bg-color);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.progressBarNextJS {
+	height: 100%;
+	width: 80%;
+	background-color: var(--progress-bar-fg-color);
+	border-radius: 5px;
+	transition: width 2s ease-in-out;
+}
+
+.progressContainerMongoDB {
+	width: var(--progress-bar-width);
+	height: 5px;
+	background-color: var(--progress-bar-bg-color);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.progressBarMongoDB {
+	height: 100%;
+	width: 85%;
+	background-color: var(--progress-bar-fg-color);
+	border-radius: 5px;
+	transition: width 2s ease-in-out;
+}
+
+.progressContainerGCP {
+	width: var(--progress-bar-width);
+	height: 5px;
+	background-color: var(--progress-bar-bg-color);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.progressBarGCP {
+	height: 100%;
+	width: 85%;
+	background-color: var(--progress-bar-fg-color);
+	border-radius: 5px;
+	transition: width 2s ease-in-out;
+}
+
+.progressContainerADO {
+	width: var(--progress-bar-width);
+	height: 5px;
+	background-color: var(--progress-bar-bg-color);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.progressBarADO {
+	height: 100%;
+	width: 85%;
+	background-color: var(--progress-bar-fg-color);
+	border-radius: 5px;
+	transition: width 2s ease-in-out;
+}
+
+.progressContainerStreamsets {
+	width: var(--progress-bar-width);
+	height: 5px;
+	background-color: var(--progress-bar-bg-color);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.progressBarStreamsets {
+	height: 100%;
+	width: 75%;
+	background-color: var(--progress-bar-fg-color);
+	border-radius: 5px;
+	transition: width 2s ease-in-out;
+}
+
+.progressContainerTF {
+	width: var(--progress-bar-width);
+	height: 5px;
+	background-color: var(--progress-bar-bg-color);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.progressBarTF {
+	height: 100%;
+	width: 75%;
+	background-color: var(--progress-bar-fg-color);
+	border-radius: 5px;
+	transition: width 2s ease-in-out;
+}
+
+.progressContainerPS {
+	width: var(--progress-bar-width);
+	height: 5px;
+	background-color: var(--progress-bar-bg-color);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.progressBarPS {
+	height: 100%;
+	width: 70%;
+	background-color: var(--progress-bar-fg-color);
+	border-radius: 5px;
+	transition: width 2s ease-in-out;
+}
+
+.progressContainerAPIGEE {
+	width: var(--progress-bar-width);
+	height: 5px;
+	background-color: var(--progress-bar-bg-color);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.progressBarAPIGEE {
+	height: 100%;
+	width: 75%;
+	background-color: var(--progress-bar-fg-color);
+	border-radius: 5px;
+	transition: width 2s ease-in-out;
+}
+
+/* Progress Bar CSS */
+
+@media (max-width: 576px) {
+	/* Progress Bar CSS */
+	.progressContainerNodeJS {
+		width: var(--progress-bar-width-576);
+		height: 5px;
+		background-color: var(--progress-bar-bg-color);
+		border-radius: 10px;
+		overflow: hidden;
+	}
+
+	.progressBarNodeJS {
+		height: 100%;
+		width: 85%;
+		background-color: var(--progress-bar-fg-color);
+		border-radius: 5px;
+		transition: width 2s ease-in-out;
+	}
+
+	.progressContainerJavaScript {
+		width: var(--progress-bar-width-576);
+		height: 5px;
+		background-color: var(--progress-bar-bg-color);
+		border-radius: 10px;
+		overflow: hidden;
+	}
+
+	.progressBarJavaScript {
+		height: 100%;
+		width: 90%;
+		background-color: var(--progress-bar-fg-color);
+		border-radius: 5px;
+		transition: width 2s ease-in-out;
+	}
+
+	.progressContainerReact {
+		width: var(--progress-bar-width-576);
+		height: 5px;
+		background-color: var(--progress-bar-bg-color);
+		border-radius: 10px;
+		overflow: hidden;
+	}
+
+	.progressBarReact {
+		height: 100%;
+		width: 70%;
+		background-color: var(--progress-bar-fg-color);
+		border-radius: 5px;
+		transition: width 2s ease-in-out;
+	}
+
+	.progressContainerNextJS {
+		width: var(--progress-bar-width-576);
+		height: 5px;
+		background-color: var(--progress-bar-bg-color);
+		border-radius: 10px;
+		overflow: hidden;
+	}
+
+	.progressBarNextJS {
+		height: 100%;
+		width: 80%;
+		background-color: var(--progress-bar-fg-color);
+		border-radius: 5px;
+		transition: width 2s ease-in-out;
+	}
+
+	.progressContainerMongoDB {
+		width: var(--progress-bar-width-576);
+		height: 5px;
+		background-color: var(--progress-bar-bg-color);
+		border-radius: 10px;
+		overflow: hidden;
+	}
+
+	.progressBarMongoDB {
+		height: 100%;
+		width: 85%;
+		background-color: var(--progress-bar-fg-color);
+		border-radius: 5px;
+		transition: width 2s ease-in-out;
+	}
+
+	.progressContainerGCP {
+		width: var(--progress-bar-width-576);
+		height: 5px;
+		background-color: var(--progress-bar-bg-color);
+		border-radius: 10px;
+		overflow: hidden;
+	}
+
+	.progressBarGCP {
+		height: 100%;
+		width: 85%;
+		background-color: var(--progress-bar-fg-color);
+		border-radius: 5px;
+		transition: width 2s ease-in-out;
+	}
+
+	.progressContainerADO {
+		width: var(--progress-bar-width-576);
+		height: 5px;
+		background-color: var(--progress-bar-bg-color);
+		border-radius: 10px;
+		overflow: hidden;
+	}
+
+	.progressBarADO {
+		height: 100%;
+		width: 85%;
+		background-color: var(--progress-bar-fg-color);
+		border-radius: 5px;
+		transition: width 2s ease-in-out;
+	}
+
+	.progressContainerStreamsets {
+		width: var(--progress-bar-width-576);
+		height: 5px;
+		background-color: var(--progress-bar-bg-color);
+		border-radius: 10px;
+		overflow: hidden;
+	}
+
+	.progressBarStreamsets {
+		height: 100%;
+		width: 75%;
+		background-color: var(--progress-bar-fg-color);
+		border-radius: 5px;
+		transition: width 2s ease-in-out;
+	}
+
+	.progressContainerTF {
+		width: var(--progress-bar-width-576);
+		height: 5px;
+		background-color: var(--progress-bar-bg-color);
+		border-radius: 10px;
+		overflow: hidden;
+	}
+
+	.progressBarTF {
+		height: 100%;
+		width: 75%;
+		background-color: var(--progress-bar-fg-color);
+		border-radius: 5px;
+		transition: width 2s ease-in-out;
+	}
+
+	.progressContainerPS {
+		width: var(--progress-bar-width-576);
+		height: 5px;
+		background-color: var(--progress-bar-bg-color);
+		border-radius: 10px;
+		overflow: hidden;
+	}
+
+	.progressBarPS {
+		height: 100%;
+		width: 70%;
+		background-color: var(--progress-bar-fg-color);
+		border-radius: 5px;
+		transition: width 2s ease-in-out;
+	}
+
+	.progressContainerAPIGEE {
+		width: var(--progress-bar-width-576);
+		height: 5px;
+		background-color: var(--progress-bar-bg-color);
+		border-radius: 10px;
+		overflow: hidden;
+	}
+
+	.progressBarAPIGEE {
+		height: 100%;
+		width: 75%;
+		background-color: var(--progress-bar-fg-color);
+		border-radius: 5px;
+		transition: width 2s ease-in-out;
+	}
+
+	/* Progress Bar CSS */
+}
