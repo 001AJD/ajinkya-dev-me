@@ -28,12 +28,12 @@
 }
 
 .image {
-	width: 300px;
+	width: 240px;
 	height: 300px;
-	box-shadow: 0 1px 10px rgba(8, 232, 202, 0.2);
-	border-radius: 50%;
+	box-shadow: 0 1px 4px black;
+	border-radius: 5px;
 	overflow: hidden;
-	background-color: var(--color-grey-700);
+	background-color: white;
 	margin: auto;
 }
 
@@ -77,12 +77,12 @@
 	}
 
 	.image {
-		width: 300px;
+		width: 240px;
 		height: 300px;
-		box-shadow: 0 1px 80px rgba(8, 232, 202, 0.2);
-		border-radius: 50%;
+		box-shadow: 0 1px 4px black;
+		border-radius: 5px;
 		overflow: hidden;
-		background-color: var(--color-grey-700);
+		background-color: white;
 		margin: auto;
 	}
 }
